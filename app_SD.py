@@ -118,7 +118,7 @@ def main():
                 else:
                     st.success("✅ Negative: No Chronic Kidney Disease Detected")
 
-                st.subheader("🩺 Health Precautions")
+                st.subheader("🩺 Here are few Suggestions")
                 patient_data_str = ', '.join([f"{k}: {v}" for k, v in st.session_state.inputs.items()])
                 precautions = get_health_precautions(patient_data_str)
                 
