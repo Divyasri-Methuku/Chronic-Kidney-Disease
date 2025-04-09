@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+bcrypt
+google-generativeai
+catboost==1.2.7
+xgboost
+scikit-learn
